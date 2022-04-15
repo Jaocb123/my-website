@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Chan</title>
+    <style>
+        #Jacob{
+            display: flex;
+            align-items: center;
+            font-size: 40px; 
+            /*text-align: center;*/
+            justify-content: center;
+            user-select: none;
+            color:black;  
+            background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+            transition: all 0.7s;
+            background-size: cover;
+            height: 400px;
+        }
+    #draw{
+        text-align: center;
+        width: 500px;
+        font-family: "Bubblegum Sans";
+        padding: 30px;
+        border: 10px solid white;
+        font-size: 60px;
+        box-shadow: 0px 0px 10px black;
+        text-shadow: 0px 0px 10px white;
+    }  
+    #buttons {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+ }
+    #buttons a{
+        border: 2px solid greenyellow;
+       min-width: calc(50% - 10px);
+       box-sizing: border-box;
+       flex-grow: 1;
+        margin:5px;
+        font-size: 30px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .button{
+        padding: 20px;
+        transition: all ease-in-out 0.43s;
+        background: linear-gradient(to right,yellow,orange);
+        font-family: "Concert one", sans-serif;
+        color: rgb(0, 0, 0);
+    }
+     .button:hover{
+        background: linear-gradient(to right,yellow,rgb(236, 195, 119));  
+        transform: scale(1.1);
+     }
+     .button div{
+         color: black;
+     }
+     #youtube{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         background: black;
+     }
+
+    </style>
+    <link rel="icon" type="image/x-icon" href="/profile photo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Jacob">
+        <div id="draw">
+            Jacob Chan
+
+        </div>
+    </div>
+    <div id="buttons">
+    <a href="https://docs.google.com/presentation/d/12NDDtl7CalLx3gIbhyywS2vLl6fWEQS99YMYdc6H-W8/edit">
+        <div class="button">my drawings
+        </div>
+    </a>
+    <a href="https://docs.google.com/presentation/d/11o4ejP4Eovj4zMq9kkwbKLOjxoGdAadxGp04vMR0DhM/edit#slide=id.p">
+        <div class="button">my writings
+        </div>
+    </a>
+    <a href="mailto:jacobsnchan@gmail.com">
+        <div class="button">contact me
+        </div>
+    </a>
+    <a href="https://www.youtube.com/channel/UCSnH5tF-xz-p5TL8R3eQZwQ">
+        <div class="button">my youtube channel
+        </div>
+    </a>
+    <a href="/aboutme.html">
+        <div class="button">about me
+        </div>
+    </a>
+    </div>
+<div id="youtube"> <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/videoseries?list=UUSnH5tF-xz-p5TL8R3eQZwQ" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe></div>
+</body>
+</html>
