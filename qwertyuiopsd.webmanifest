@@ -1,0 +1,21 @@
+{
+    "name": "Jacob's website",
+    "short_name": "jacob website",
+    "description": "this website is cool,you should click on this",
+    "icons": [
+      {
+        "src": "profile photo.jpg",
+        "sizes": "32x32",
+        "type": "image/jpg"
+      },
+      {
+        "src": "profile photo.jpg",
+        "sizes": "512x512",
+        "type":"image/jpg"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "theme_color": "#FFA500",
+    "background_color": "#FFA500"
+  }
